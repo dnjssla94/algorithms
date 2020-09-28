@@ -1,5 +1,5 @@
+from collections import Counter
 
+A = [1,2,3,4,1,2,3]
 
-a = 5
-a += 1
-print(a)
+print(Counter(A)[4])
