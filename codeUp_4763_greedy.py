@@ -20,7 +20,7 @@ for i in range(monkeyNum):
     hateNum = list(map(int, hateNum))
     rltShip.append(hateNum)
 
-# print(rltShip)
+# print(rltShip)0
 cage1 = list()
 cage2 = list()
 

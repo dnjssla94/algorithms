@@ -16,7 +16,7 @@ graph['J'] = ['I']
 def dfs(graph, start_node):
     visited_queue, need_visit_stack = list(), list()
     need_visit_stack.append(start_node)
-
+    
     while need_visit_stack:
         node = need_visit_stack.pop()
         if node not in visited_queue:
