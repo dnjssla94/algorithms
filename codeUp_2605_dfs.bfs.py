@@ -37,7 +37,7 @@ def solution(n):
 count = 0
 for i in range(1, 50):
     result = solution(i)
-    print(i,'번째: ', visited_queue)
+    #print(i,'번째: ', visited_queue)
 
     if result >= 3:
         count += 1
