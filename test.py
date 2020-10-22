@@ -1,6 +1,4 @@
-a = [1,2,3,4,5]
-n = 6
-if n not in a:
-    print(n)
-else:
-    print('있음')
+# for i in range(5,0,-1):
+#     print(i)
+a= eval('1+3')
+print(a)
